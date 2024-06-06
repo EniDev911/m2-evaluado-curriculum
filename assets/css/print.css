@@ -1,0 +1,21 @@
+@media print {
+    button, iframe {
+        display: none !important;
+    }
+	body, section {
+		color: #342;
+		font-family: sans-serif;
+	}
+	h1, h2 {
+		text-align: center;
+	}
+	img, button, footer {
+		display: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	a[href^='https']:after {
+		content: " (" attr(href) ")";
+	}
+}

@@ -2,6 +2,9 @@
     button, iframe {
         display: none !important;
     }
+	.skiptranslate {
+		display: none;
+	}
 	body, section {
 		color: #342;
 		font-family: sans-serif;
